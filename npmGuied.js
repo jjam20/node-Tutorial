@@ -27,3 +27,13 @@ const items = [1,2,[3,4,[5,6],[7,8]]]
 const newItems = _.flattenDeep(items)
 
 console.log(newItems)
+
+
+//when storing the project on git, you don't need to
+//push the modules, just put them in gitignore file
+//and run npm install when you clone the project
+//and the modules will be available to you bacause
+//their properties are stored in the package.json file
+
+
+
